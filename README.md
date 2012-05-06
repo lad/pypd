@@ -10,8 +10,8 @@ The main goal of this project is to make it easier to view and manage these depe
 
 In addition to managing dependencies, having parsed the patch files, a number of useful utilities may be written to manipulate objects within patch files.
 
-NOTE
-====
+Note
+----
 
 This is a work-in-progress rewrite of the initial version that you can find in the [pypd.archive][] repository.
 
