@@ -1,0 +1,269 @@
+[elements]
+array           name, size, save_flag
+array_data      start_idx, values
+# There are two types of canvas, define both
+canvas-5        x, y, width, height, font_size
+canvas-6        x, y, width, height, name, open_on_load
+connect         src_id, src_out, dest_id, dest_out
+coords          x1, y2, x2, y1, width, heigth, gop
+declare         path_type, path
+floatatom       x, y, width, lower, upper, label_pos, label, receive, send
+import          name
+msg             x, y, text
+obj             x, y, name
+restore         x, y, name
+scalar
+struct
+symbolatom      x, y, width, lower, upper, label_pos, label, receive, send
+text            x, y, text
+
+[objects]
+!=              rhs
+%               rhs
+&&              rhs
+&               rhs
+*               rhs
+*~              rhs
++               rhs
++~              rhs
+-               rhs
+-~              rhs
+/               rhs
+/~              rhs
+<               rhs
+<<              rhs
+<=              rhs
+==              rhs
+>               rhs
+>=              rhs
+>>              rhs
+|               rhs
+||              rhs
+abs
+abs~
+adc~            inputs
+append          template_name, fields
+arraysize       array_name
+atan
+atan2
+bag
+bang
+bang~
+bendin          channel
+bendout         channel
+biquad~         coeffs
+block~          size, overlap, resampling
+bng             size, hold, interrupt, init, \
+                send, receive, label, label_x, label_y, font, \
+                font_size, bg_color, fg_color, label_color
+bp~             freq, q
+catch~          bus_name
+change          init
+clip            lower, upper
+clip~           lower, upper
+closebang
+cnv             size, width, height, send, \
+                receive, label, label_x, label_y, font, \
+                font_size, bg_color, label_color, reserved
+cos
+cos~
+cpole~          re, im
+cputime
+ctlin           controller, channel
+ctlout          controller, channel
+czero_rev~      re, im
+czero~          re, im
+dac~            outputs
+dbtopow
+dbtopow~
+dbtorms
+dbtorms~
+declare         path_type, path
+delay           ms
+delread~        buf, ms
+delwrite~       buf, ms
+div             rhs
+dmstodb
+drawcurve
+drawnumber
+drawpolygon
+drawsymbol
+drunk           upper, step
+element
+env~            window, period
+exp
+expr            expr
+expr~           expr
+exp~            base
+fft~
+filledcurve
+filledpolygon
+float           init
+framp~
+ftom
+ftom~
+get
+getsize
+hip~            freq
+hradio          size, new_old, init, number, send, receive, \
+                label, label_x, label_y, font, font_size, \
+                bg_color, fg_color, label_color, default_value
+hslider         width, height, bottom, top, log, init, send, receive, \
+                label, label_x, label_y, font, font_size, \
+                bg_color, fg_color, label_color, default_value, steady_on_click
+ifft~
+import          name
+initbang
+inlet           name
+inlet~          name
+int             init
+key
+keyname
+keyup
+line            init, grain_rate
+line~
+list            init
+loadbang
+log
+log~            base
+lop~            freq
+makefilename    format
+makenote        velocity, duration
+makesymbol      format
+max
+max~
+metro           ms
+midiin
+midiout
+midirealtimeinnn
+min
+min~
+mod             value
+moses           value
+mtof
+mtof~
+namecanvas
+nbx             size, height, min, max, log, init, send, receive, \
+                label, label_x, label_y, font, font_size, \
+                bg_color, fg_color, label_color, log_height
+netreceive      port_num, tcp_udp
+netsend         tcp_udp
+noise~
+notein          channel
+noteout         channel
+openpanel
+osc~            freq
+outlet          name
+outlet~         name
+pack            format
+pgmin           channel
+pgmout          channel
+phasor~         freq
+pipe            data_type, delay
+plot
+pointer
+poly            num_voices, steal_voices
+polytouchin     channel
+polytouchout    channel
+pow             value
+powtodb
+pow~
+print           prefix
+print~          prefix
+q8_rsqrt~
+q8_sqrt~
+qlist
+random          max
+readsf~         num_channels, buf_size
+realtime
+receive         src
+receive~        src
+rfft~
+rifft~
+rmstodb
+rmstodb~
+route           format
+rpole~          re
+rsqrt~
+rzero_rev~      re
+rzero~          re
+samphold~
+samplerate~
+savepanel
+select
+send            dest
+send~           dest
+serial
+set
+setsize
+sig~            init
+sin
+snapshot~       ms
+soundfiler
+spigot          init
+sqrt
+sqrt~
+stripnote
+struct
+sublist         template_name, field
+swap
+switch~
+symbol          init
+sysexin
+table           name, size
+tabosc4~        table
+tabplay~        table
+tabread         table
+tabread4        table
+tabread4~       table
+tabread~        table
+tabreceive~     table
+tabsend~        array_name
+tabwrite        table
+tabwrite~       table
+tan
+textfile
+threshold~      val, deb_time, rest_time
+throw~          name
+timer
+toggle          size, init, send, receive, label, label_x, label_y, font, \
+                font_size, bg_color, fg_color, label_color, init_value, \
+                default_value
+touchin         channel
+touchout        channel
+trigger         format
+unpack          format
+until
+value
+vcf~            q
+vd~             buf
+vline~
+vradio          size, new_old, init, number, send, receive, \
+                label, label_x, label_y, font, font_size, \
+                bg_color, fg_color, label_color, default_value
+vslider         width, height, bottom, top, log, init, send, receive, \
+                label, label_x, label_y, font, font_size, \
+                bg_color, fg_color, label_color, default_value, steady_on_click
+vsnapshot~
+vu              width, height, receive, label, label_x, label_y, \
+                font, font_size, bg_color, label_color, scale, reserved
+wrap~
+writesf~
+
+[aliases]
+vslider         vsl
+hslider         hsl
+toggle          tgl
+hradio          hdl
+vradio          vdl
+value           v
+send            s
+send~           s~
+receive         r
+receive~        r~
+bang            b
+delay           del
+float           f
+int             i
+trigger         t
+select          sel
