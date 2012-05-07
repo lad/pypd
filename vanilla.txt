@@ -1,17 +1,17 @@
 [elements]
-array           name, size, save_flag
+array           array_name, size, save_flag
 array_data      start_idx, values
 # There are two types of canvas, define both
 canvas-5        x, y, width, height, font_size
-canvas-6        x, y, width, height, name, open_on_load
+canvas-6        x, y, width, height, canvas_name, open_on_load
 connect         src_id, src_out, dest_id, dest_out
 coords          x1, y2, x2, y1, width, heigth, gop
 declare         path_type, path
 floatatom       x, y, width, lower, upper, label_pos, label, receive, send
-import          name
+import          import_name
 msg             x, y, text
 obj             x, y, name
-restore         x, y, name
+restore
 scalar
 struct
 symbolatom      x, y, width, lower, upper, label_pos, label, receive, send
@@ -112,10 +112,9 @@ hslider         width, height, bottom, top, log, init, send, receive, \
                 label, label_x, label_y, font, font_size, \
                 bg_color, fg_color, label_color, default_value, steady_on_click
 ifft~
-import          name
 initbang
-inlet           name
-inlet~          name
+inlet           inlet_name
+inlet~          inlet_name
 int             init
 key
 keyname
@@ -153,8 +152,8 @@ notein          channel
 noteout         channel
 openpanel
 osc~            freq
-outlet          name
-outlet~         name
+outlet          outlet_name
+outlet~         outlet_name
 pack            format
 pgmin           channel
 pgmout          channel
@@ -210,7 +209,7 @@ swap
 switch~
 symbol          init
 sysexin
-table           name, size
+table           table_name, size
 tabosc4~        table
 tabplay~        table
 tabread         table
@@ -224,7 +223,7 @@ tabwrite~       table
 tan
 textfile
 threshold~      val, deb_time, rest_time
-throw~          name
+throw~          bus_name
 timer
 toggle          size, init, send, receive, label, label_x, label_y, font, \
                 font_size, bg_color, fg_color, label_color, init_value, \
