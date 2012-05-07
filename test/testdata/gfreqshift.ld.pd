@@ -1,0 +1,24 @@
+#N canvas 288 301 450 300 10;
+#X floatatom 253 79 5 0 0 0 - - -;
+#X obj 150 79 hsl 100 16 0 10000 0 0 empty empty Shift-Frequency 10
+9 0 9 -262130 -1 -1 0 1;
+#X obj 57 128 sigpack/freqshift~;
+#X obj 58 18 inlet~;
+#X obj 57 209 outlet~;
+#X obj 301 125 sigpack/freqshift~;
+#X obj 302 15 inlet~;
+#X obj 301 206 outlet~;
+#X obj 390 15 inlet;
+#X obj 147 17 loadbang;
+#X obj 147 45 0;
+#X connect 1 0 0 0;
+#X connect 1 0 2 1;
+#X connect 1 0 5 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 5 0 7 0;
+#X connect 6 0 5 0;
+#X connect 8 0 1 0;
+#X connect 9 0 10 0;
+#X connect 10 0 1 0;
+#X coords 0 -1 1 1 141 23 2 145 76;

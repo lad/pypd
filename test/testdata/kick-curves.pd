@@ -1,0 +1,52 @@
+#N canvas 610 37 450 616 10;
+#X obj 130 434 curve~;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array array1 22050 float 2;
+#X coords 0 1 22049 -1 200 140 1;
+#X restore 100 20 graph;
+#X obj 18 479 tabwrite~ array1;
+#X obj 18 433 bng 15 250 50 0 empty empty Graph 17 7 0 10 -262144 -1
+-1;
+#X obj 128 517 osc~;
+#X obj 129 476 *~;
+#X floatatom 284 412 5 0 0 0 - - -;
+#X obj 127 555 output~;
+#X obj 178 255 metro 500;
+#X obj 286 252 hsl 128 15 0 800 0 0 empty empty Decay -2 -8 0 10 -262144
+-1 -1 2100 1;
+#X obj 288 323 hsl 128 15 -0.999999 0.999999 0 0 empty empty Slope
+-2 -8 0 10 -262144 -1 -1 3200 1;
+#X msg 130 388 1;
+#X floatatom 284 277 5 0 0 0 - - -;
+#X floatatom 285 345 5 0 0 0 - - -;
+#X obj 287 388 hsl 128 15 0 1500 0 0 empty empty Freq -2 -8 0 10 -262144
+-1 -1 700 1;
+#X obj 178 325 t b b b;
+#X obj 178 208 tog.ld;
+#X obj 178 388 pack 0 f f;
+#X obj 287 187 hsl 128 15 20 1500 0 0 empty empty Tempo -2 -8 0 10
+-262144 -1 -1 2800 1;
+#X floatatom 284 217 5 0 0 0 - - -;
+#X obj 172 475 0;
+#X connect 0 0 2 0;
+#X connect 0 0 5 0;
+#X connect 3 0 2 0;
+#X connect 4 0 7 0;
+#X connect 4 0 7 1;
+#X connect 5 0 4 0;
+#X connect 6 0 5 1;
+#X connect 8 0 15 0;
+#X connect 9 0 12 0;
+#X connect 10 0 13 0;
+#X connect 11 0 0 0;
+#X connect 12 0 17 1;
+#X connect 13 0 17 2;
+#X connect 14 0 6 0;
+#X connect 15 0 17 0;
+#X connect 15 1 11 0;
+#X connect 15 2 20 0;
+#X connect 16 0 8 0;
+#X connect 17 0 0 0;
+#X connect 18 0 19 0;
+#X connect 19 0 8 1;
+#X connect 20 0 4 1;

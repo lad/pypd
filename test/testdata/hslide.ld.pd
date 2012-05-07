@@ -1,0 +1,48 @@
+#N canvas 743 48 713 535 10;
+#X obj 302 272 outlet;
+#X obj 371 230 1;
+#X obj 400 230 10;
+#X obj 462 230 50;
+#X obj 490 230 100;
+#X obj 178 44 inlet;
+#X obj 371 194 route 0 1 2 3 4 5 6 7;
+#X obj 431 230 20;
+#X obj 522 230 500;
+#X obj 556 230 1000;
+#X obj 595 230 10000;
+#X obj 416 323 mul.ld;
+#X obj 471 275 f;
+#X obj 257 45 loadbang;
+#X msg 257 80 0;
+#X obj 176 118 cnv 15 140 27 empty empty empty 20 12 0 14 -171136 -33289
+0;
+#X floatatom 276 122 6 0 0 0 - - -;
+#X obj 181 120 hsl 91 9 0 1 0 0 empty empty empty -3 -7 0 10 -262130
+-1 -1 0 1;
+#X obj 178 131 hradio 12 1 0 8 empty empty empty 0 -8 0 10 -262130
+-1 -1 0;
+#X connect 1 0 12 0;
+#X connect 2 0 12 0;
+#X connect 3 0 12 0;
+#X connect 4 0 12 0;
+#X connect 5 0 17 0;
+#X connect 6 0 1 0;
+#X connect 6 1 2 0;
+#X connect 6 2 7 0;
+#X connect 6 3 3 0;
+#X connect 6 4 4 0;
+#X connect 6 5 8 0;
+#X connect 6 6 9 0;
+#X connect 6 7 10 0;
+#X connect 7 0 12 0;
+#X connect 8 0 12 0;
+#X connect 9 0 12 0;
+#X connect 10 0 12 0;
+#X connect 11 0 16 0;
+#X connect 12 0 11 1;
+#X connect 13 0 14 0;
+#X connect 14 0 18 0;
+#X connect 16 0 0 0;
+#X connect 17 0 11 0;
+#X connect 18 0 6 0;
+#X coords 0 -1 1 1 142 33 2 175 115;

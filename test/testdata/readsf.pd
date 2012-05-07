@@ -1,0 +1,24 @@
+#N canvas 635 197 450 293 10;
+#X obj 31 -26 readsf~ 2;
+#X obj 35 86 dac~;
+#X obj 157 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 31 -79 open DrumLoop2.wav;
+#X msg 159 -76 start;
+#X msg 160 -52 stop;
+#X obj 222 -76 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 12700 1;
+#X obj 199 72 expr ($f1/127);
+#X obj 31 40 *~;
+#X obj 92 40 *~;
+#X connect 0 0 8 0;
+#X connect 0 1 9 0;
+#X connect 0 2 2 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 1;
+#X connect 7 0 9 1;
+#X connect 8 0 1 0;
+#X connect 9 0 1 1;

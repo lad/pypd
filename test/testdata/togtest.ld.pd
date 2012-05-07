@@ -1,0 +1,10 @@
+#N canvas 1105 40 450 300 10;
+#X obj 61 47 tog.ld \$0-keys K;
+#X obj 157 163 r \$0-keys-out;
+#X floatatom 169 211 5 0 0 0 - - -;
+#X obj 203 35 tog.ld \$0-play P;
+#X floatatom 299 190 5 0 0 0 - - -;
+#X obj 288 142 r \$0-play-out;
+#X obj 77 107 togkey.ld \$0-keys-out \$0-play 32 0;
+#X connect 1 0 2 0;
+#X connect 5 0 4 0;

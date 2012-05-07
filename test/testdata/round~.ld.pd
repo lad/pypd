@@ -1,0 +1,8 @@
+#N canvas 384 238 450 300 10;
+#X obj 42 40 inlet~;
+#X obj 42 113 int_fract~;
+#X obj 43 152 outlet~;
+#X obj 42 79 +~ 0.5;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 3 0 1 0;

@@ -1,0 +1,17 @@
+#N canvas 210 142 317 302 10;
+#X obj 71 54 inlet~;
+#X obj 141 54 inlet;
+#X obj 71 159 *~;
+#X obj 71 194 wrap~;
+#X obj 72 239 outlet~;
+#X text 62 18 SCALE SIGNAL FREQUENCY;
+#X obj 91 134 f \$1;
+#X floatatom 140 161 5 0 0 0 - - -;
+#X obj 130 231 sigout;
+#X connect 0 0 2 0;
+#X connect 1 0 6 0;
+#X connect 2 0 3 0;
+#X connect 2 0 8 0;
+#X connect 3 0 4 0;
+#X connect 6 0 2 1;
+#X connect 6 0 7 0;

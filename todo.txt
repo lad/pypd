@@ -1,0 +1,49 @@
+
+Examples
+---------
+- Add command line examples (-x)
+- Add PdPatch/PdObject examples, how to select and modify
+
+
+Object IDs
+----------
+Connect objects are troublesome as they refer to object ids. Inserting/deletion
+will require modifying the connect objects. Can't see any way around this. In
+fact it's one of the features the project can offer. It's worth having this
+baked in so you don't have to think of it when writing quick scripts.
+
+- Assign bi-directional references from connect objects to the sources and
+  destinations.
+- The object-ids in the connection object can then be ignored on insert/delete.
+- The source and destination object-ids can be regenerated when re-writing
+  the patch.
+
+
+Write
+-----
+- Add support for rewriting modify patch files.
+
+
+Parse Recursive Abstractions
+----------------------------
+- Add the current patch's path into search list
+- Descend through the external abstractions until are no more left
+- This gives the bulk of what is needed to generate stand-alone patches with
+  all included dependencies.
+
+
+Declare
+-------
+- Add support for declare -path -stdpath -lib -stdlib
+    -path add to search path (relative to patch)
+    -stdpath add to search path (relative to PD installation)
+    -lib load library (relative to patch)
+    -stdlib load library (relative to PD installation)
+
+
+Import
+------
+- Add support for import statement. To properly support this we need to extract
+  the exported symbols by the external library. Python ctypes should help, but
+  can't see a way of reading the exported symbols ala unix nm.
+

@@ -1,0 +1,36 @@
+#N canvas 797 138 450 357 10;
+#X obj 79 177 indexer;
+#X obj 133 115 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 166 204 print DUMP;
+#X obj 73 8 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 78 86 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 173 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 160 231 print TEST;
+#X obj 61 274 print F;
+#X msg 51 59 symbol out;
+#X obj 57 35 pack \$0;
+#X msg 167 36 symbol \$1-out;
+#X obj 170 100 pack \$0;
+#X msg 165 123 symbol \$1-out;
+#X obj 136 254 unpack f s;
+#X obj 151 295 print I;
+#X floatatom 113 319 5 0 0 0 - - -;
+#X connect 0 0 7 0;
+#X connect 0 0 13 0;
+#X connect 0 2 6 0;
+#X connect 0 3 2 0;
+#X connect 1 0 0 3;
+#X connect 3 0 9 0;
+#X connect 4 0 0 1;
+#X connect 5 0 11 0;
+#X connect 8 0 0 0;
+#X connect 9 0 10 0;
+#X connect 10 0 0 0;
+#X connect 11 0 12 0;
+#X connect 12 0 0 0;
+#X connect 13 0 14 0;
+#X connect 13 0 15 0;

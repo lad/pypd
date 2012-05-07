@@ -1,0 +1,18 @@
+#N canvas 649 329 450 300 10;
+#X floatatom 253 79 5 0 0 0 - - -;
+#X obj 150 79 hsl 100 16 -1 1 0 0 empty empty Shape 37 9 0 9 -262130
+-1 -1 1500 1;
+#X obj 58 18 inlet~;
+#X obj 57 209 outlet~;
+#X obj 390 15 inlet;
+#X obj 147 17 loadbang;
+#X obj 147 45 -10;
+#X obj 57 128 sigpack/shape~ 10;
+#X connect 1 0 0 0;
+#X connect 1 0 7 1;
+#X connect 2 0 7 0;
+#X connect 4 0 1 0;
+#X connect 5 0 6 0;
+#X connect 6 0 1 0;
+#X connect 7 0 3 0;
+#X coords 0 -1 1 1 141 23 2 145 76;

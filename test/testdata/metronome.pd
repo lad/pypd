@@ -1,0 +1,65 @@
+#N canvas 196 174 467 480 10;
+#X obj 107 270 osc~ 3000;
+#X obj 177 240 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 174 287 del 50;
+#X floatatom 161 311 5 0 0 0 - - -;
+#X floatatom 216 309 5 0 0 0 - - -;
+#X obj 106 345 *~;
+#X obj 102 376 dac~;
+#X obj 143 30 expr 1000/($f1/60);
+#X floatatom 141 61 5 0 0 0 - - -;
+#X floatatom 143 4 5 0 0 0 - - -;
+#X obj 182 204 metro;
+#X obj 101 5 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 274 4 hradio 15 1 0 3 empty empty empty 0 -8 0 10 -261234 -1
+-1 0;
+#X floatatom 226 99 5 0 0 0 - - -;
+#X obj 264 67 expr pow(2 \, $f1);
+#X obj 182 125 /;
+#X floatatom 219 167 5 0 0 0 - - -;
+#X obj 265 36 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 88 -25 On/Off;
+#X text 149 -23 BPM;
+#X text 245 -20 Full / Half / Quater;
+#X obj 182 -61 init 120;
+#X obj 194 66 init 1;
+#X obj 263 275 init 1;
+#X obj 101 -64 loadbang;
+#X obj 7 42 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -86277
+-262144 -1 5300 1;
+#X obj 7 197 expr ($f1/127)*5000;
+#X floatatom 6 236 5 0 0 0 - - -;
+#X obj 10 279 init 3000;
+#X connect 0 0 5 0;
+#X connect 1 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 1;
+#X connect 4 0 5 1;
+#X connect 5 0 6 0;
+#X connect 5 0 6 1;
+#X connect 7 0 8 0;
+#X connect 8 0 15 0;
+#X connect 9 0 7 0;
+#X connect 10 0 1 0;
+#X connect 11 0 10 0;
+#X connect 12 0 14 0;
+#X connect 12 0 17 0;
+#X connect 13 0 15 1;
+#X connect 14 0 13 0;
+#X connect 15 0 16 0;
+#X connect 16 0 10 1;
+#X connect 17 0 8 0;
+#X connect 21 0 9 0;
+#X connect 22 0 13 0;
+#X connect 23 0 4 0;
+#X connect 24 0 15 0;
+#X connect 24 0 3 0;
+#X connect 25 0 26 0;
+#X connect 26 0 27 0;
+#X connect 27 0 0 0;
+#X connect 28 0 27 0;
+#X coords 0 0 1 1 85 60 0;

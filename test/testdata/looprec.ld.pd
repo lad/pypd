@@ -1,0 +1,75 @@
+#N canvas 537 33 555 556 10;
+#X obj 100 98 cnv 15 109 22 empty empty Save 25 12 0 14 -233017 -66577
+0;
+#X obj 102 102 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 343 305 inlet~;
+#X obj 344 356 tabwrite~ \$0-writesf;
+#X obj 100 76 cnv 15 109 21 empty st Stopped 25 11 0 14 -258699 -1
+0;
+#X msg 84 274 \; st color 13 22 \; st label Stopped;
+#X msg 205 273 \; st color 16 22 \; st label Recording;
+#X obj 101 77 tgl 20 0 empty tog empty 17 7 0 10 -258699 -1 -1 0 1
+;
+#X msg 97 237 \; tog color 13 22;
+#X msg 219 237 \; tog color 16 22;
+#X obj 109 194 t b b b;
+#X obj 205 205 t b b b;
+#X msg 398 325 stop;
+#X obj 44 344 savepanel;
+#X obj 195 442 line;
+#X msg 226 412 stop;
+#X obj 144 153 sel 0;
+#X obj 71 408 symbol \$0-writesf;
+#X obj 44 440 pack s s;
+#X obj 155 343 sel 1;
+#X msg 211 385 0 \, 1 2000;
+#X obj 104 61 hsl 103 15 0 1 0 0 empty recpos empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 195 474 s recpos;
+#X obj 290 91 line;
+#X obj 401 273 sel 0;
+#X obj 468 281 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 403 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 344 406 table \$0-writesf 441000;
+#X msg 290 60 0 \, 1 10000;
+#X obj 290 26 metro 10000;
+#X msg 261 130 stop;
+#X obj 318 504 writesf~;
+#X obj 44 378 t s b;
+#X msg 44 471 write \$1 \$2;
+#X obj 44 500 soundfiler;
+#X connect 1 0 13 0;
+#X connect 2 0 3 0;
+#X connect 7 0 16 0;
+#X connect 7 0 29 0;
+#X connect 10 0 5 0;
+#X connect 10 1 8 0;
+#X connect 10 2 30 0;
+#X connect 11 0 6 0;
+#X connect 11 1 9 0;
+#X connect 11 2 12 0;
+#X connect 12 0 3 0;
+#X connect 13 0 32 0;
+#X connect 14 0 19 0;
+#X connect 14 0 22 0;
+#X connect 15 0 14 0;
+#X connect 16 0 10 0;
+#X connect 16 1 11 0;
+#X connect 17 0 18 1;
+#X connect 18 0 33 0;
+#X connect 19 0 20 0;
+#X connect 20 0 14 0;
+#X connect 21 0 24 0;
+#X connect 23 0 21 0;
+#X connect 24 0 3 0;
+#X connect 24 0 25 0;
+#X connect 28 0 23 0;
+#X connect 29 0 28 0;
+#X connect 30 0 23 0;
+#X connect 32 0 18 0;
+#X connect 32 1 17 0;
+#X connect 33 0 34 0;
+#X coords 0 -1 1 1 110 61 2 100 60;

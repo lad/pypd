@@ -1,0 +1,14 @@
+#N canvas 236 79 450 300 10;
+#X obj 151 54 inlet~;
+#X obj 152 96 cos~;
+#X obj 97 137 -~;
+#X obj 98 214 outlet~;
+#X obj 96 98 sig~ 1;
+#X obj 97 177 *~ 0.5;
+#X text 98 10 CREATE HANNING WINDOW SIGNAL;
+#X text 129 21 FROM PHASOR INPUT;
+#X connect 0 0 1 0;
+#X connect 1 0 2 1;
+#X connect 2 0 5 0;
+#X connect 4 0 2 0;
+#X connect 5 0 3 0;

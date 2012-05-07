@@ -1,0 +1,17 @@
+#N canvas 875 191 450 300 10;
+#X obj 132 141 coll;
+#C restore;
+#X msg 97 58 assoc bar 22;
+#X msg 138 83 bar;
+#X obj 143 227 print;
+#X floatatom 187 174 5 0 0 0 - - -;
+#X msg 191 95 22;
+#X msg 218 51 clear;
+#X msg 210 108 dump;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
+#X connect 7 0 0 0;

@@ -1,0 +1,75 @@
+#N canvas 323 20 646 587 10;
+#X obj 55 295 noise~;
+#X obj 112 295 line~;
+#X obj 48 399 *~;
+#X obj 40 531 dac~;
+#X obj 48 504 *~ 0;
+#X obj 81 490 hsl 128 15 0 1 0 0 empty empty Volume_0-1 -2 -6 0 8 -262144
+-1 -1 6900 1;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array osc 1 float 0;
+#X coords 0 1 1 -1 200 80 1;
+#X restore 375 103 graph;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array line 1 float 0;
+#X coords 0 1 1 -1 200 80 1;
+#X restore 376 20 graph;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array drum 1 float 0;
+#X coords 0 1 1 -1 200 80 1;
+#X restore 376 187 graph;
+#X obj 183 394 tabwrite~ line;
+#X msg 335 256 5000;
+#X obj 254 63 bng 15 250 50 0 empty empty empty 0 -6 0 8 -241291 -1
+-1;
+#X obj 48 435 lop~ 400;
+#X floatatom 99 413 5 0 0 0 - - -;
+#X obj 50 82 hsl 128 15 0 1000 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 2300 1;
+#X obj 53 252 osc~;
+#X obj 49 45 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 55 197 +;
+#X obj 105 208 line;
+#X obj 140 125 t b b;
+#X obj 77 132 f;
+#X floatatom 51 226 5 0 0 0 - - -;
+#X obj 121 16 hsl 128 15 0 1000 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 3300 1;
+#X obj 103 54 metro;
+#X obj 161 417 tabwrite~ osc;
+#X msg 335 277 \; line resize \$1 \; osc resize \$1 \; drum resize
+\$1;
+#X obj 127 452 tabwrite~ drum;
+#X msg 110 263 1 \, 0 100;
+#X msg 106 183 100 \, 0 80;
+#X connect 1 0 2 1;
+#X connect 1 0 9 0;
+#X connect 2 0 12 0;
+#X connect 4 0 3 0;
+#X connect 4 0 3 1;
+#X connect 5 0 4 1;
+#X connect 10 0 25 0;
+#X connect 11 0 27 0;
+#X connect 11 0 9 0;
+#X connect 11 0 19 0;
+#X connect 11 0 24 0;
+#X connect 11 0 26 0;
+#X connect 12 0 4 0;
+#X connect 12 0 26 0;
+#X connect 13 0 12 1;
+#X connect 14 0 19 0;
+#X connect 14 0 20 0;
+#X connect 15 0 2 0;
+#X connect 15 0 24 0;
+#X connect 16 0 23 0;
+#X connect 17 0 21 0;
+#X connect 18 0 17 0;
+#X connect 19 0 28 0;
+#X connect 19 1 20 0;
+#X connect 20 0 17 1;
+#X connect 21 0 15 0;
+#X connect 22 0 23 1;
+#X connect 23 0 11 0;
+#X connect 27 0 1 0;
+#X connect 28 0 18 0;

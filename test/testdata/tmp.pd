@@ -1,0 +1,422 @@
+#N canvas 0 0 1402 534 10;
+#X obj 30 80 vsl 8 128 0 1 0 0 \$0-slicevol-0-out \$0-slicevol-0-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 38 80 vsl 8 128 0 1 0 0 \$0-slicevol-1-out \$0-slicevol-1-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 46 80 vsl 8 128 0 1 0 0 \$0-slicevol-2-out \$0-slicevol-2-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 54 80 vsl 8 128 0 1 0 0 \$0-slicevol-3-out \$0-slicevol-3-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 62 80 vsl 8 128 0 1 0 0 \$0-slicevol-4-out \$0-slicevol-4-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 70 80 vsl 8 128 0 1 0 0 \$0-slicevol-5-out \$0-slicevol-5-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 78 80 vsl 8 128 0 1 0 0 \$0-slicevol-6-out \$0-slicevol-6-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 86 80 vsl 8 128 0 1 0 0 \$0-slicevol-7-out \$0-slicevol-7-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 104 80 vsl 8 128 0 1 0 0 \$0-slicevol-8-out \$0-slicevol-8-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 112 80 vsl 8 128 0 1 0 0 \$0-slicevol-9-out \$0-slicevol-9-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 120 80 vsl 8 128 0 1 0 0 \$0-slicevol-10-out \$0-slicevol-10-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 128 80 vsl 8 128 0 1 0 0 \$0-slicevol-11-out \$0-slicevol-11-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 136 80 vsl 8 128 0 1 0 0 \$0-slicevol-12-out \$0-slicevol-12-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 144 80 vsl 8 128 0 1 0 0 \$0-slicevol-13-out \$0-slicevol-13-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 152 80 vsl 8 128 0 1 0 0 \$0-slicevol-14-out \$0-slicevol-14-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 160 80 vsl 8 128 0 1 0 0 \$0-slicevol-15-out \$0-slicevol-15-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 178 80 vsl 8 128 0 1 0 0 \$0-slicevol-16-out \$0-slicevol-16-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 186 80 vsl 8 128 0 1 0 0 \$0-slicevol-17-out \$0-slicevol-17-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 194 80 vsl 8 128 0 1 0 0 \$0-slicevol-18-out \$0-slicevol-18-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 202 80 vsl 8 128 0 1 0 0 \$0-slicevol-19-out \$0-slicevol-19-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 210 80 vsl 8 128 0 1 0 0 \$0-slicevol-20-out \$0-slicevol-20-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 218 80 vsl 8 128 0 1 0 0 \$0-slicevol-21-out \$0-slicevol-21-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 226 80 vsl 8 128 0 1 0 0 \$0-slicevol-22-out \$0-slicevol-22-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 234 80 vsl 8 128 0 1 0 0 \$0-slicevol-23-out \$0-slicevol-23-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 252 80 vsl 8 128 0 1 0 0 \$0-slicevol-24-out \$0-slicevol-24-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 260 80 vsl 8 128 0 1 0 0 \$0-slicevol-25-out \$0-slicevol-25-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 268 80 vsl 8 128 0 1 0 0 \$0-slicevol-26-out \$0-slicevol-26-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 276 80 vsl 8 128 0 1 0 0 \$0-slicevol-27-out \$0-slicevol-27-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 284 80 vsl 8 128 0 1 0 0 \$0-slicevol-28-out \$0-slicevol-28-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 292 80 vsl 8 128 0 1 0 0 \$0-slicevol-29-out \$0-slicevol-29-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 300 80 vsl 8 128 0 1 0 0 \$0-slicevol-30-out \$0-slicevol-30-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 308 80 vsl 8 128 0 1 0 0 \$0-slicevol-31-out \$0-slicevol-31-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 326 80 vsl 8 128 0 1 0 0 \$0-slicevol-32-out \$0-slicevol-32-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 334 80 vsl 8 128 0 1 0 0 \$0-slicevol-33-out \$0-slicevol-33-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 342 80 vsl 8 128 0 1 0 0 \$0-slicevol-34-out \$0-slicevol-34-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 350 80 vsl 8 128 0 1 0 0 \$0-slicevol-35-out \$0-slicevol-35-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 358 80 vsl 8 128 0 1 0 0 \$0-slicevol-36-out \$0-slicevol-36-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 366 80 vsl 8 128 0 1 0 0 \$0-slicevol-37-out \$0-slicevol-37-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 374 80 vsl 8 128 0 1 0 0 \$0-slicevol-38-out \$0-slicevol-38-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 382 80 vsl 8 128 0 1 0 0 \$0-slicevol-39-out \$0-slicevol-39-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 400 80 vsl 8 128 0 1 0 0 \$0-slicevol-40-out \$0-slicevol-40-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 408 80 vsl 8 128 0 1 0 0 \$0-slicevol-41-out \$0-slicevol-41-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 416 80 vsl 8 128 0 1 0 0 \$0-slicevol-42-out \$0-slicevol-42-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 424 80 vsl 8 128 0 1 0 0 \$0-slicevol-43-out \$0-slicevol-43-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 432 80 vsl 8 128 0 1 0 0 \$0-slicevol-44-out \$0-slicevol-44-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 440 80 vsl 8 128 0 1 0 0 \$0-slicevol-45-out \$0-slicevol-45-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 448 80 vsl 8 128 0 1 0 0 \$0-slicevol-46-out \$0-slicevol-46-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 456 80 vsl 8 128 0 1 0 0 \$0-slicevol-47-out \$0-slicevol-47-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 474 80 vsl 8 128 0 1 0 0 \$0-slicevol-48-out \$0-slicevol-48-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 482 80 vsl 8 128 0 1 0 0 \$0-slicevol-49-out \$0-slicevol-49-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 490 80 vsl 8 128 0 1 0 0 \$0-slicevol-50-out \$0-slicevol-50-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 498 80 vsl 8 128 0 1 0 0 \$0-slicevol-51-out \$0-slicevol-51-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 506 80 vsl 8 128 0 1 0 0 \$0-slicevol-52-out \$0-slicevol-52-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 514 80 vsl 8 128 0 1 0 0 \$0-slicevol-53-out \$0-slicevol-53-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 522 80 vsl 8 128 0 1 0 0 \$0-slicevol-54-out \$0-slicevol-54-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 530 80 vsl 8 128 0 1 0 0 \$0-slicevol-55-out \$0-slicevol-55-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 548 80 vsl 8 128 0 1 0 0 \$0-slicevol-56-out \$0-slicevol-56-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 556 80 vsl 8 128 0 1 0 0 \$0-slicevol-57-out \$0-slicevol-57-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 564 80 vsl 8 128 0 1 0 0 \$0-slicevol-58-out \$0-slicevol-58-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 572 80 vsl 8 128 0 1 0 0 \$0-slicevol-59-out \$0-slicevol-59-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 580 80 vsl 8 128 0 1 0 0 \$0-slicevol-60-out \$0-slicevol-60-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 588 80 vsl 8 128 0 1 0 0 \$0-slicevol-61-out \$0-slicevol-61-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 596 80 vsl 8 128 0 1 0 0 \$0-slicevol-62-out \$0-slicevol-62-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 604 80 vsl 8 128 0 1 0 0 \$0-slicevol-63-out \$0-slicevol-63-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 622 80 vsl 8 128 0 1 0 0 \$0-slicevol-64-out \$0-slicevol-64-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 630 80 vsl 8 128 0 1 0 0 \$0-slicevol-65-out \$0-slicevol-65-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 638 80 vsl 8 128 0 1 0 0 \$0-slicevol-66-out \$0-slicevol-66-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 646 80 vsl 8 128 0 1 0 0 \$0-slicevol-67-out \$0-slicevol-67-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 654 80 vsl 8 128 0 1 0 0 \$0-slicevol-68-out \$0-slicevol-68-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 662 80 vsl 8 128 0 1 0 0 \$0-slicevol-69-out \$0-slicevol-69-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 670 80 vsl 8 128 0 1 0 0 \$0-slicevol-70-out \$0-slicevol-70-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 678 80 vsl 8 128 0 1 0 0 \$0-slicevol-71-out \$0-slicevol-71-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 696 80 vsl 8 128 0 1 0 0 \$0-slicevol-72-out \$0-slicevol-72-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 704 80 vsl 8 128 0 1 0 0 \$0-slicevol-73-out \$0-slicevol-73-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 712 80 vsl 8 128 0 1 0 0 \$0-slicevol-74-out \$0-slicevol-74-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 720 80 vsl 8 128 0 1 0 0 \$0-slicevol-75-out \$0-slicevol-75-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 728 80 vsl 8 128 0 1 0 0 \$0-slicevol-76-out \$0-slicevol-76-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 736 80 vsl 8 128 0 1 0 0 \$0-slicevol-77-out \$0-slicevol-77-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 744 80 vsl 8 128 0 1 0 0 \$0-slicevol-78-out \$0-slicevol-78-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 752 80 vsl 8 128 0 1 0 0 \$0-slicevol-79-out \$0-slicevol-79-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 770 80 vsl 8 128 0 1 0 0 \$0-slicevol-80-out \$0-slicevol-80-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 778 80 vsl 8 128 0 1 0 0 \$0-slicevol-81-out \$0-slicevol-81-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 786 80 vsl 8 128 0 1 0 0 \$0-slicevol-82-out \$0-slicevol-82-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 794 80 vsl 8 128 0 1 0 0 \$0-slicevol-83-out \$0-slicevol-83-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 802 80 vsl 8 128 0 1 0 0 \$0-slicevol-84-out \$0-slicevol-84-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 810 80 vsl 8 128 0 1 0 0 \$0-slicevol-85-out \$0-slicevol-85-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 818 80 vsl 8 128 0 1 0 0 \$0-slicevol-86-out \$0-slicevol-86-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 826 80 vsl 8 128 0 1 0 0 \$0-slicevol-87-out \$0-slicevol-87-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 844 80 vsl 8 128 0 1 0 0 \$0-slicevol-88-out \$0-slicevol-88-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 852 80 vsl 8 128 0 1 0 0 \$0-slicevol-89-out \$0-slicevol-89-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 860 80 vsl 8 128 0 1 0 0 \$0-slicevol-90-out \$0-slicevol-90-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 868 80 vsl 8 128 0 1 0 0 \$0-slicevol-91-out \$0-slicevol-91-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 876 80 vsl 8 128 0 1 0 0 \$0-slicevol-92-out \$0-slicevol-92-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 884 80 vsl 8 128 0 1 0 0 \$0-slicevol-93-out \$0-slicevol-93-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 892 80 vsl 8 128 0 1 0 0 \$0-slicevol-94-out \$0-slicevol-94-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 900 80 vsl 8 128 0 1 0 0 \$0-slicevol-95-out \$0-slicevol-95-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 918 80 vsl 8 128 0 1 0 0 \$0-slicevol-96-out \$0-slicevol-96-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 926 80 vsl 8 128 0 1 0 0 \$0-slicevol-97-out \$0-slicevol-97-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 934 80 vsl 8 128 0 1 0 0 \$0-slicevol-98-out \$0-slicevol-98-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 942 80 vsl 8 128 0 1 0 0 \$0-slicevol-99-out \$0-slicevol-99-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 950 80 vsl 8 128 0 1 0 0 \$0-slicevol-100-out \$0-slicevol-100-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 958 80 vsl 8 128 0 1 0 0 \$0-slicevol-101-out \$0-slicevol-101-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 966 80 vsl 8 128 0 1 0 0 \$0-slicevol-102-out \$0-slicevol-102-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 974 80 vsl 8 128 0 1 0 0 \$0-slicevol-103-out \$0-slicevol-103-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 992 80 vsl 8 128 0 1 0 0 \$0-slicevol-104-out \$0-slicevol-104-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1000 80 vsl 8 128 0 1 0 0 \$0-slicevol-105-out \$0-slicevol-105-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1008 80 vsl 8 128 0 1 0 0 \$0-slicevol-106-out \$0-slicevol-106-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1016 80 vsl 8 128 0 1 0 0 \$0-slicevol-107-out \$0-slicevol-107-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1024 80 vsl 8 128 0 1 0 0 \$0-slicevol-108-out \$0-slicevol-108-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1032 80 vsl 8 128 0 1 0 0 \$0-slicevol-109-out \$0-slicevol-109-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1040 80 vsl 8 128 0 1 0 0 \$0-slicevol-110-out \$0-slicevol-110-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1048 80 vsl 8 128 0 1 0 0 \$0-slicevol-111-out \$0-slicevol-111-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1066 80 vsl 8 128 0 1 0 0 \$0-slicevol-112-out \$0-slicevol-112-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1074 80 vsl 8 128 0 1 0 0 \$0-slicevol-113-out \$0-slicevol-113-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1082 80 vsl 8 128 0 1 0 0 \$0-slicevol-114-out \$0-slicevol-114-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1090 80 vsl 8 128 0 1 0 0 \$0-slicevol-115-out \$0-slicevol-115-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1098 80 vsl 8 128 0 1 0 0 \$0-slicevol-116-out \$0-slicevol-116-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1106 80 vsl 8 128 0 1 0 0 \$0-slicevol-117-out \$0-slicevol-117-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1114 80 vsl 8 128 0 1 0 0 \$0-slicevol-118-out \$0-slicevol-118-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1122 80 vsl 8 128 0 1 0 0 \$0-slicevol-119-out \$0-slicevol-119-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1140 80 vsl 8 128 0 1 0 0 \$0-slicevol-120-out \$0-slicevol-120-in
+1 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1148 80 vsl 8 128 0 1 0 0 \$0-slicevol-121-out \$0-slicevol-121-in
+2 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1156 80 vsl 8 128 0 1 0 0 \$0-slicevol-122-out \$0-slicevol-122-in
+3 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1164 80 vsl 8 128 0 1 0 0 \$0-slicevol-123-out \$0-slicevol-123-in
+4 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1172 80 vsl 8 128 0 1 0 0 \$0-slicevol-124-out \$0-slicevol-124-in
+5 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1180 80 vsl 8 128 0 1 0 0 \$0-slicevol-125-out \$0-slicevol-125-in
+6 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1188 80 vsl 8 128 0 1 0 0 \$0-slicevol-126-out \$0-slicevol-126-in
+7 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 1196 80 vsl 8 128 0 1 0 0 \$0-slicevol-127-out \$0-slicevol-127-in
+8 1 60 0 10 -262131 -1 -1 0 1;
+#X obj 485 262 s \$0-slicevol;
+#X obj 7 80 vsl 14 128 0 1 0 0 \$0-slicevol-all-out \$0-slicevol-all-in
+empty 0 -9 0 10 -262131 -1 -1 0 1;
+#X obj 7 56 bng 15 250 50 0 \$0-slicevol-all-bang empty empty 17 7
+0 10 -262144 -1 -1;
+#X obj 30 55 tgl 15 0 \$0-barvol-1-out \$0-barvol-1-in 1 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 104 55 tgl 15 0 \$0-barvol-2-out \$0-barvol-2-in 2 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 178 55 tgl 15 0 \$0-barvol-3-out \$0-barvol-3-in 3 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 252 55 tgl 15 0 \$0-barvol-4-out \$0-barvol-4-in 4 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 326 55 tgl 15 0 \$0-barvol-5-out \$0-barvol-5-in 5 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 400 55 tgl 15 0 \$0-barvol-6-out \$0-barvol-6-in 6 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 474 55 tgl 15 0 \$0-barvol-7-out \$0-barvol-7-in 7 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 548 55 tgl 15 0 \$0-barvol-8-out \$0-barvol-8-in 8 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 622 55 tgl 15 0 \$0-barvol-9-out \$0-barvol-9-in 9 18 7 0 10
+-262130 -1 -1 0 1;
+#X obj 696 55 tgl 15 0 \$0-barvol-10-out \$0-barvol-10-in 10 18 7 0
+10 -262130 -1 -1 0 1;
+#X obj 770 55 tgl 15 0 \$0-barvol-11-out \$0-barvol-11-in 11 18 7 0
+10 -262130 -1 -1 0 1;
+#X obj 844 55 tgl 15 0 \$0-barvol-12-out \$0-barvol-12-in 12 18 7 0
+10 -262130 -1 -1 0 1;
+#X obj 918 55 tgl 15 0 \$0-barvol-13-out \$0-barvol-13-in 13 18 7 0
+10 -262130 -1 -1 0 1;
+#X obj 992 55 tgl 15 0 \$0-barvol-14-out \$0-barvol-14-in 14 18 7 0
+10 -262130 -1 -1 0 1;
+#X obj 1066 55 tgl 15 0 \$0-barvol-15-out \$0-barvol-15-in 15 18 7
+0 10 -262130 -1 -1 0 1;
+#X obj 1140 55 tgl 15 0 \$0-barvol-16-out \$0-barvol-16-in 16 18 7
+0 10 -262130 -1 -1 0 1;
+#X connect 0 0 128 0;
+#X connect 1 0 128 0;
+#X connect 2 0 128 0;
+#X connect 3 0 128 0;
+#X connect 4 0 128 0;
+#X connect 5 0 128 0;
+#X connect 6 0 128 0;
+#X connect 7 0 128 0;
+#X connect 8 0 128 0;
+#X connect 9 0 128 0;
+#X connect 10 0 128 0;
+#X connect 11 0 128 0;
+#X connect 12 0 128 0;
+#X connect 13 0 128 0;
+#X connect 14 0 128 0;
+#X connect 15 0 128 0;
+#X connect 16 0 128 0;
+#X connect 17 0 128 0;
+#X connect 18 0 128 0;
+#X connect 19 0 128 0;
+#X connect 20 0 128 0;
+#X connect 21 0 128 0;
+#X connect 22 0 128 0;
+#X connect 23 0 128 0;
+#X connect 24 0 128 0;
+#X connect 25 0 128 0;
+#X connect 26 0 128 0;
+#X connect 27 0 128 0;
+#X connect 28 0 128 0;
+#X connect 29 0 128 0;
+#X connect 30 0 128 0;
+#X connect 31 0 128 0;
+#X connect 32 0 128 0;
+#X connect 33 0 128 0;
+#X connect 34 0 128 0;
+#X connect 35 0 128 0;
+#X connect 36 0 128 0;
+#X connect 37 0 128 0;
+#X connect 38 0 128 0;
+#X connect 39 0 128 0;
+#X connect 40 0 128 0;
+#X connect 41 0 128 0;
+#X connect 42 0 128 0;
+#X connect 43 0 128 0;
+#X connect 44 0 128 0;
+#X connect 45 0 128 0;
+#X connect 46 0 128 0;
+#X connect 47 0 128 0;
+#X connect 48 0 128 0;
+#X connect 49 0 128 0;
+#X connect 50 0 128 0;
+#X connect 51 0 128 0;
+#X connect 52 0 128 0;
+#X connect 53 0 128 0;
+#X connect 54 0 128 0;
+#X connect 55 0 128 0;
+#X connect 56 0 128 0;
+#X connect 57 0 128 0;
+#X connect 58 0 128 0;
+#X connect 59 0 128 0;
+#X connect 60 0 128 0;
+#X connect 61 0 128 0;
+#X connect 62 0 128 0;
+#X connect 63 0 128 0;
+#X connect 64 0 128 0;
+#X connect 65 0 128 0;
+#X connect 66 0 128 0;
+#X connect 67 0 128 0;
+#X connect 68 0 128 0;
+#X connect 69 0 128 0;
+#X connect 70 0 128 0;
+#X connect 71 0 128 0;
+#X connect 72 0 128 0;
+#X connect 73 0 128 0;
+#X connect 74 0 128 0;
+#X connect 75 0 128 0;
+#X connect 76 0 128 0;
+#X connect 77 0 128 0;
+#X connect 78 0 128 0;
+#X connect 79 0 128 0;
+#X connect 80 0 128 0;
+#X connect 81 0 128 0;
+#X connect 82 0 128 0;
+#X connect 83 0 128 0;
+#X connect 84 0 128 0;
+#X connect 85 0 128 0;
+#X connect 86 0 128 0;
+#X connect 87 0 128 0;
+#X connect 88 0 128 0;
+#X connect 89 0 128 0;
+#X connect 90 0 128 0;
+#X connect 91 0 128 0;
+#X connect 92 0 128 0;
+#X connect 93 0 128 0;
+#X connect 94 0 128 0;
+#X connect 95 0 128 0;
+#X connect 96 0 128 0;
+#X connect 97 0 128 0;
+#X connect 98 0 128 0;
+#X connect 99 0 128 0;
+#X connect 100 0 128 0;
+#X connect 101 0 128 0;
+#X connect 102 0 128 0;
+#X connect 103 0 128 0;
+#X connect 104 0 128 0;
+#X connect 105 0 128 0;
+#X connect 106 0 128 0;
+#X connect 107 0 128 0;
+#X connect 108 0 128 0;
+#X connect 109 0 128 0;
+#X connect 110 0 128 0;
+#X connect 111 0 128 0;
+#X connect 112 0 128 0;
+#X connect 113 0 128 0;
+#X connect 114 0 128 0;
+#X connect 115 0 128 0;
+#X connect 116 0 128 0;
+#X connect 117 0 128 0;
+#X connect 118 0 128 0;
+#X connect 119 0 128 0;
+#X connect 120 0 128 0;
+#X connect 121 0 128 0;
+#X connect 122 0 128 0;
+#X connect 123 0 128 0;
+#X connect 124 0 128 0;
+#X connect 125 0 128 0;
+#X connect 126 0 128 0;
+#X connect 127 0 128 0;
